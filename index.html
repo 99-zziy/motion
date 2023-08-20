@@ -19,8 +19,19 @@
       </nav>
     </header>
     <main>
-      <div id="modal">
+      <div id="modal" data-record-id="image">
+        <button id="close-button">X</button>
+        <div class="input-container">
+          <label for="title">Title</label>
+          <input id="title"></input>
+        </div>
+        <div class="input-container">
+          <label id="contents-label" for="contents"></label>
+          <input id="contents"></input>
+        </div>
+        <button id="add-button">ADD</button>
       </div>
+      <ul id="record-list"></ul>
     </main>
     <script src="./build/index.js" type="module"></script>
   </body>

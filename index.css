@@ -37,7 +37,74 @@ main {
   top: calc(50% - 100px);
   left: calc(50% - 250px);
   width: 500px;
-  height: 200px;
+  height: 300px;
   display: none;
   background-color: #dddbd8;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#add-button {
+  background: #f64435;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 100px;
+  cursor: pointer;
+}
+
+#close-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  padding-top: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  width: 100%;
+  height: 30px;
+}
+
+.input-container {
+  width: 100%;
+}
+
+.record-title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.record-body {
+  color: black;
+}
+
+#record-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.record-item {
+  background: #f5f5f8;
+  border-radius: 5px;
+  width: 80vw;
+  padding: 1rem;
+}
+
+.record-image {
 }
