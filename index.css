@@ -15,7 +15,7 @@ main {
   background-size: cover;
 }
 
-.tab-container {
+#tab-container {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
@@ -30,4 +30,14 @@ main {
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+#modal {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 250px);
+  width: 500px;
+  height: 200px;
+  display: none;
+  background-color: #dddbd8;
 }

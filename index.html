@@ -4,21 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Motion</title>
-    <script src="./build/main.js"></script>
     <link rel="stylesheet" type="text/css" href="./index.css"></link>
   </head>
   <body>
     <header>
       <h1>MOTION</h1>
       <nav>
-        <ul class="tab-container">
-          <li class="tab">IMAGE</li>
-          <li class="tab">VIDEO</li>
-          <li class="tab">NOTE</li>
-          <li class="tab">TASK</li>
+        <ul id="tab-container">
+          <li class="tab" data-record-id="image">IMAGE</li>
+          <li class="tab" data-record-id="video">VIDEO</li>
+          <li class="tab" data-record-id="note">NOTE</li>
+          <li class="tab" data-record-id="task">TASK</li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div id="modal">
+      </div>
+    </main>
+    <script src="./build/index.js" type="module"></script>
   </body>
 </html>
